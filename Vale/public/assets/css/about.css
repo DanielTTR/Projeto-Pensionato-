@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
+body {
+  background-color: #f8f9fb;
+}
+main {
+  width: 96%;
+  margin: auto;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Work Sans', sans-serif;
+}
+.about-right h2 {
+  background-color: RGB(248, 249, 251);
+  text-align: left;
+  font-family: 'Playfair Display SC', serif;
+  position: relative;
+}
+.about-right h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  background: #000;
+  left: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: 22%;
+  bottom: -1px;
+  left: 11%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  background-color: RGB(248, 249, 251);
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  position: relative;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    background: #000;
+    left: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 200px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.container-about{
+  background-color: rgba(0, 128, 0, 0);
+  display: flex;
+  margin: 5% 5% 20% 5%;
+  
+}
+.about-left{
+width: 52%;
+}
+.about-left img{
+width: 100%;
+border-radius: 5%;
+}
+.about-right{
+width: 48%;
+display: flex;
+flex-direction: column;
+text-align: left;
+padding: 5%;
+
+}
+.about-right p{
+font-size: 1.2rem;
+}
+
+
+.container-time {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 5% 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-container-time {
+  width: 345px;
+  background-color: #ffffff;
+  height: auto;
+  overflow: hidden;
+  margin-top: 5%;
+
+}
+
+
+
+
+
+.card-container-time img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card-container-time:hover .image {
+  transition: .3s all ease-in-out;
+  transform: scale(1.05);
+
+}
+
+.card-descricao-time {
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+  flex-direction: column;
+  padding: 5%;
+  text-align: center;
+}
+
+.card-descricao-time h2 {
+  color: rgb(0, 0, 0);
+  padding: 5% 0%;
+}
+
+.card-descricao-time p:nth-child(2) {
+  color: rgb(182, 182, 182);
+  padding: 5% 0%;
+  font-size: 1.1rem;
+}
+
+.read-more a {
+  color: red;
+}
+.read-more a i {
+  color: rgba(255, 0, 0, 0.57);
+
+}

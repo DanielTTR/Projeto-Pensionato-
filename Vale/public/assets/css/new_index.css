@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+main {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(167, 163, 96, 0);
+  border: 1px solid rgb(218, 215, 215);
+}
+
+.container-moradia{
+  background-color: rgba(206, 205, 186, 0.179);
+  padding:2%;
+  width: 90%;
+  margin:5% auto;
+  border: 1px solid #dfa974;
+  border-radius: 3%;
+}
+
+.container-moradia h3 {
+  font-family: 'Lora', serif;
+  color: #dfa974;
+  font-size: 1.9rem;
+}
+
+.container-info {
+  display: flex;
+  background-color: rgba(245, 222, 179, 0);
+  justify-content: center;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+table {
+  margin-bottom: 40px;
+  width: 100%;
+  background-color: rgba(168, 213, 142, 0);
+  height: 100%;
+}
+.td-first{
+  width: 125px;
+}
+td {
+  font-size: 16px;
+  color: #707079;
+  line-height: 16px;
+  padding-bottom: 2%;
+}
+.descricao {
+  width: 80%;
+}
+.descricao h4 {
+  color: #dfa974;
+  text-align: center;
+}
